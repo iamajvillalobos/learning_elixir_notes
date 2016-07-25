@@ -94,3 +94,4 @@ name = "Jose Valim"
 - to use as an associative array
 - if keys are strings, you can access maps using `states["AL"]`
 - if keys are atoms, you can access maps using `states[:al]`
+```
