@@ -23,5 +23,18 @@ to it again.
 [a,a] = [1,2]
 ```
 will give a match error.
+- If you don't want to re-assign a value to a variable, you can use the `^`(pin
+operator)
+```
+a = 1
+1
 
+a = 2
+2
+
+^a = 1
+```
+the last expression will give a `MatchError` since `^a` is referring to `1`
+value
+```
 
